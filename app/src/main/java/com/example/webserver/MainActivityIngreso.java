@@ -44,7 +44,6 @@ public class MainActivityIngreso extends AppCompatActivity implements Asynchtask
             String website = user.getString("website");
 
             lstUsuario = lstUsuario + " (" + i +") "+ "\nNombre: " + nombre +", Usuario:"+Usuario+ "\nCorreo: " +Correo+"\nTelefono: "+telefono+", WebSite: "+website+"\n";
-            int List = i;
             String LSTUser = lstUsuario;
             new android.os.Handler().postDelayed(new Runnable() {
                 public void run() {
